@@ -1,0 +1,65 @@
+@import "fonts.css";
+@import "reset.css";
+@import "global.css";
+
+@import "header.css";
+@import "footer.css";
+
+/* -------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------- */
+
+@media (max-width: 1220px) {
+    .header__logo {
+        width: 150px;
+        gap: 25px;
+    }
+
+    .nav__link {
+        font-size: 15px;
+    }
+
+    .header__basket {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .header__logo {
+        margin-right: 25px;
+    }
+
+    .nav__link {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .header__top-inner {
+        position: relative;
+        justify-content: center;
+    }
+
+    .header__logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .header__basket {
+        position: absolute;
+        right: 0;
+    }
+}

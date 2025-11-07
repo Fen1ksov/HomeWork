@@ -1,0 +1,27 @@
+:root {
+    --font-family: "Open Sans", sans-serif;
+    --second-family: "NAMU", sans-serif;
+    --general-bg: #fff;
+    --general-text: #111;
+    --accent-color: #c5358c;
+    --transition: all .4s;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 1390px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}

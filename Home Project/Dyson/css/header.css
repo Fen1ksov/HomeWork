@@ -1,0 +1,45 @@
+.header__top {
+    background: #111;
+}
+
+.header__top-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 0 7px;
+    min-height: 90px;
+}
+
+.header__logo {
+    max-width: 183px;
+    margin-right: 50px;
+}
+
+.nav__list {
+    display: flex;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    gap: 30px;
+}
+
+.nav__link {
+    display: block;
+    padding: 8px 0;
+}
+
+.nav__link:hover {
+    color: var(--accent-color);
+    transition: var(--transition);
+}
+
+.header__basket {
+    margin-left: 60px;
+}
+
+.header__basket:hover path{
+    stroke: var(--accent-color);
+    transition: var(--transition);
+}
+
