@@ -7,6 +7,54 @@
 
 /* -------------------------------------------------- */
 
+.hero {
+    background: #ddd;
+}
+
+.hero__inner {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.hero__content {
+    max-width: 556px;
+    margin-bottom: 244px;
+}
+
+.hero__title {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 1.03;
+    color: var(--general-text);
+    margin-bottom: 40px;
+}
+
+.hero__text {
+    font-family: var(--font-family);
+    font-size: 26px;
+    margin-bottom: 90px;
+}
+
+.hero__btn {
+    font-family: var(--second-family);
+    font-size: 24px;
+    border-radius: 3px;
+    padding: 16px 52px;
+    width: 235px;
+    height: 64px;
+    background: var(--accent-color);
+    color: #fff;
+    
+}
+
+.hero__img {
+    flex-shrink: 0;
+    max-width: 55%;
+    height: auto;
+}
+
 /* -------------------------------------------------- */
 
 @media (max-width: 1220px) {
