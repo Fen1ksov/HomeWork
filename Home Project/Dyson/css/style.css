@@ -9,12 +9,14 @@
 
 .hero {
     background: #ddd;
+    position: relative;
 }
 
 .hero__inner {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    align-items: flex-start;
+    min-height: 850px;
 }
 
 .hero__content {
@@ -28,7 +30,7 @@
     font-size: 46px;
     line-height: 1.03;
     color: var(--general-text);
-    margin-bottom: 40px;
+    margin: 250px 0 40px;
 }
 
 .hero__text {
@@ -40,19 +42,19 @@
 .hero__btn {
     font-family: var(--second-family);
     font-size: 24px;
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 16px 52px;
     width: 235px;
     height: 64px;
     background: var(--accent-color);
     color: #fff;
-    
 }
 
 .hero__img {
-    flex-shrink: 0;
-    max-width: 55%;
-    height: auto;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    align-self: flex-end;
 }
 
 /* -------------------------------------------------- */
@@ -71,6 +73,19 @@
     .header__basket {
         margin-left: 25px;
     }
+
+    /* ---------------------- */
+
+    .hero__content {
+        max-width: 556px;
+        margin-bottom: 244px;
+    }
+
+    .hero__img {
+        position: relative;
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 1000px) {
