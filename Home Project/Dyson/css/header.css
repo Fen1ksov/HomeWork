@@ -13,8 +13,8 @@
 /* -------------------------- */
 
 .header__logo {
-    max-width: 183px;
-    margin-right: 50px;
+    width: 183px;
+    margin: 6px 50px 7px 0px;
     z-index: 11;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .header__basket {
-    margin-left: 60px;
+    margin-left: 50px;
 }
 
 .header__basket:hover path {
