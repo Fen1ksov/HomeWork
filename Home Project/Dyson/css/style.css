@@ -61,14 +61,21 @@
 
 @media (max-width: 1200px) {
     .header__logo {
-        width: 142px;
         margin: 10px 0 6px ;
         z-index: 11;
+    }
+
+    .header__logo svg {
+        width: 142px;
     }
 
     .header__basket {
         margin-left: auto;
         margin-right: 70px;
+    }
+
+    .header__basket svg {
+        width: 31px;
     }
 
     /* ---------------------- */

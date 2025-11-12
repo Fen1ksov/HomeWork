@@ -14,7 +14,7 @@
 
 .header__logo {
     width: 183px;
-    margin: 6px 50px 7px 0px;
+    margin: 6px 40px 7px 0px;
     z-index: 11;
 }
 
@@ -81,7 +81,6 @@
     display: flex;
     font-family: var(--second-family);
     font-weight: 400;
-    font-size: 20px;
     color: #fff;
     gap: 5vh 30px;
 }
@@ -89,6 +88,7 @@
 .nav__link {
     display: block;
     padding: 8px 0;
+    font-size: 20px;
 }
 
 .nav__link:hover {
