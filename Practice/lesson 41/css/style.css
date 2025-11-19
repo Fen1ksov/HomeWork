@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+}
+
+form {
+  max-width: 300px;
+}
+
+fieldset {
+  border-radius: 6px;
+}
+
+.title {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.block {
+  display: block;
+  margin-bottom: 6px;
+  border-radius: 5px;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  resize: vertical;
+  min-height: 30px;
+  max-height: 150px;
+  max-width: 165px;
+  border-radius: 5px;
+  margin-bottom: 6px;
+}
+
+.check {
+  cursor: pointer;
+}
+
+.button {
+  display: block;
+  background: #b1b1b1;
+  margin-top: 6px;
+  border-radius: 6px;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
