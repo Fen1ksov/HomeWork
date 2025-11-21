@@ -47,6 +47,10 @@ p {
   color: #535755;
 }
 
+.article-text:last-child {
+  margin-bottom: 0;
+}
+
 .article-title-big {
   font-size: 48px;
 }
@@ -97,7 +101,7 @@ p {
 }
 
 .article-item:not(:last-child) {
-  margin-bottom: 0;
+  margin-bottom: 12px;
 }
 
 .article-item::marker {
