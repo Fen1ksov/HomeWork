@@ -96,8 +96,8 @@ p {
   padding-left: 16px;
 }
 
-.article-item {
-  margin-bottom: 12px;
+.article-item:not(:last-child) {
+  margin-bottom: 0;
 }
 
 .article-item::marker {
