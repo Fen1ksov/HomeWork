@@ -120,7 +120,6 @@
   content: "";
   position: absolute;
   top: 215px;
-  bottom: 106px;
   z-index: -1;
   width: calc(50% - 250px);
   height: 48px;
